@@ -1,6 +1,6 @@
 #!/bin/sh
 echo Hello!
-echo This script will help you setup minix3
+echo This script will help automate post-installation setup of minix3
 passwd
 echo export TZ=Asia/Kolkata > /etc/rc.timezone
 pkgin update

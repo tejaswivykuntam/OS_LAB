@@ -11,3 +11,4 @@ printf 'sshd=YES\n' >> /etc/rc.conf
 /etc/rc.d/sshd start
 pkgin update
 pkgin_sets
+echo That's all! You're ready to rock!
